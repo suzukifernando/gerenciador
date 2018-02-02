@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Gerenciador</title>
+	</head>
+	<body>
+		Bem-vindo ao gerenciador de Empresa<br/>
+		<form action="busca" method="get">
+			Empresa: <input type="text" name="filtro"/>
+			<input type="submit" value="Go"/>
+		</form><br/>
+		<form action="adicionaEmpresa" method="post">
+			Nome da Empresa: <input type="text" name="nomeEmpresa"/><br/>
+			<input type="submit" value="Inserir"/><br/>
+		</form>
+		
+		<form action="login" method="post">
+			Email: <input type="text" name="email"/><br/>
+			Senha: <input type="password" name="senha"/><br/>
+			<input type="submit" value="Go"/>
+		</form>
+		
+		<form action="logout" method="post">
+			<input type=submit value="logout"/>
+		</form>
+	
+	</body>
+</html>
